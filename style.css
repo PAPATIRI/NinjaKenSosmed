@@ -11,23 +11,15 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  background-color: #eceff1;
-  color: #424242;
+  background-color: #34383a;
+  color: #fefefe;
 }
 
-header .profile-container {
-  width: 140px;
-  height: 140px;
-  margin: 15px auto;
-  padding: 3px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-}
-
-header .profile-container img {
+header img {
+  margin-top: 50px;
   height: 120px;
   border-radius: 50%;
+  border: 5px dotted #a671db;
 }
 
 header h1 {
@@ -35,8 +27,11 @@ header h1 {
 }
 
 header p {
-  margin: 0 auto 30px;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 section ul {
@@ -56,24 +51,24 @@ section ul li a {
   display: inline-block;
   width: 100%;
   padding: 15px;
-  background-color: #7879b9;
+  background-color: #a671d8;
   color: #fff;
   border-radius: 5px;
-  border: 1px solid #7879b9;
+  border: 1px solid #a671d8;
   transition: 0.25s;
 }
 
 section ul li a:hover {
   background-color: transparent;
-  color: #7879b9;
+  color: #a671db;
 }
 
 footer a {
   display: inline-block;
   width: 150px;
   height: 50px;
-  margin: 0 auto;
-  background: url("./progate.png") center no-repeat;
+  margin: 20px auto;
+  background: url("./logo.png") center no-repeat;
   background-size: cover;
 }
 
@@ -88,7 +83,7 @@ aside {
   width: 100vw;
   height: 100vh;
   padding: 15px;
-  background-color: #eceff1;
+  background-color: #34383a;
 }
 
 aside .warning-container h2 {
@@ -102,21 +97,21 @@ aside .warning-container p {
 aside .warning-container a {
   padding: 10px 15px;
   background: transparent;
-  color: #7879b9;
+  color: #a671db;
   transition: 0.25s;
 }
 
 aside .warning-container a:last-child {
   margin-left: 5px;
-  background: #7879b9;
+  background: #a671db;
   color: #fff;
-  border: 2px solid #7879b9;
+  border: 2px solid #a671db;
   border-radius: 5px;
 }
 
 aside .warning-container a:last-child:hover {
   background: transparent;
-  color: #7879b9;
+  color: #a671db;
 }
 
 /* RESPONSIVE CSS */
